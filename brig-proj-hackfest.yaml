@@ -1,0 +1,12 @@
+project: swgriffith/kubernetes-hackfest
+repository: https://github.com/swgriffith/kubernetes-hackfest
+cloneURL: https://github.com/swgriffith/kubernetes-hackfest.git
+sharedSecret: whatthewhat
+github:
+    token: 5254853d6d7862470421bdb4c7b0f152b5b86109
+secrets:
+    acrServer: acrhackfeststeve4582.azurecr.io
+    acrName: acrhackfeststeve4582
+    appId: b7640169-f6bb-4a04-ba6a-67a157700e87
+    password: 491d7105-4959-479d-9f7c-9cc8cea9f9eb
+    tenant: 72f988bf-86f1-41af-91ab-2d7cd011db47
