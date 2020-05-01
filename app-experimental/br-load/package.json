@@ -3,9 +3,13 @@
   "version": "0.1.6",
   "private": true,
   "scripts": {
-    "refresh": "artillery run data-api-load.yaml"
+    "refresh": "artillery run data-api-load.yaml",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "artillery": "^1.6.0-28"
-  }
+    "artillery": "^1.6.0-28",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
