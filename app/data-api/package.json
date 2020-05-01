@@ -5,7 +5,9 @@
   "scripts": {
     "local": "NODE_ENV=local node ./bin/www",
     "dev": "NODE_ENV=dev node ./bin/www",
-    "container": "NODE_ENV=contaimer node ./bin/www"
+    "container": "NODE_ENV=contaimer node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "applicationinsights": "^1.0.3",
@@ -23,6 +25,8 @@
     "morgan": "^1.9.1",
     "path": "^0.12.7",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
-  }
+    "request-promise": "^4.2.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
