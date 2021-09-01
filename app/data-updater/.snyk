@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2021-09-01T20:12:01.735Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2021-09-01T20:12:01.735Z'
