@@ -17,7 +17,7 @@
     "mapbox-gl": "^0.53.0",
     "moment": "^2.22.2",
     "popper.js": "^1.14.3",
-    "request-promise": "^4.2.2",
+    "request-promise": "^4.2.6",
     "vue": "^2.6.6",
     "vue-application-insights": "^1.0.3",
     "vue-clickaway": "^2.1.0",
