@@ -7,8 +7,8 @@
     "dev": "node ./bin/www"
   },
   "dependencies": {
-    "@kubernetes/client-node": "^0.9.1",
-    "async": "^2.6.1",
+    "@kubernetes/client-node": "^0.18.1",
+    "async": "^3.0.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
