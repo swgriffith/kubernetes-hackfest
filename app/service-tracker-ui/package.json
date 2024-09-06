@@ -8,13 +8,13 @@
     "container": "vue-cli-service serve"
   },
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^3.0.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "bootstrap": "^4.3.1",
     "chartist": "^0.11.0",
     "es6-promise": "^4.2.4",
     "jquery": "^3.4.1",
-    "mapbox-gl": "^0.53.0",
+    "mapbox-gl": "^1.13.3",
     "moment": "^2.22.2",
     "popper.js": "^1.14.3",
     "request-promise": "^4.2.2",
