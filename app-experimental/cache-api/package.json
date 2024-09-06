@@ -8,8 +8,8 @@
     "container": "APPINSIGHTS_INSTRUMENTATIONKEY=1038fcc4-e588-4ea7-b271-73f262b122d7 REDIS_HOST=127.0.0.1 NODE_ENV=dev REDIS_PORT=6379 node ./bin/www"
   },
   "dependencies": {
-    "applicationinsights": "^1.0.3",
-    "async": "^2.6.1",
+    "applicationinsights": "^2.7.1",
+    "async": "^3.0.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
