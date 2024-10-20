@@ -7,7 +7,7 @@
     "dev": "node ./bin/www"
   },
   "dependencies": {
-    "@kubernetes/client-node": "^0.9.1",
+    "@kubernetes/client-node": "^0.22.1",
     "async": "^2.6.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
