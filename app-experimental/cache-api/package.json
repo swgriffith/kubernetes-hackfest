@@ -5,7 +5,9 @@
   "scripts": {
     "local": "APPINSIGHTS_INSTRUMENTATIONKEY=1038fcc4-e588-4ea7-b271-73f262b122d7 REDIS_HOST=127.0.0.1 NODE_ENV=dev REDIS_PORT=6379 node ./bin/www",
     "dev": "APPINSIGHTS_INSTRUMENTATIONKEY=1038fcc4-e588-4ea7-b271-73f262b122d7 REDIS_HOST=127.0.0.1 NODE_ENV=dev REDIS_PORT=6379 node ./bin/www",
-    "container": "APPINSIGHTS_INSTRUMENTATIONKEY=1038fcc4-e588-4ea7-b271-73f262b122d7 REDIS_HOST=127.0.0.1 NODE_ENV=dev REDIS_PORT=6379 node ./bin/www"
+    "container": "APPINSIGHTS_INSTRUMENTATIONKEY=1038fcc4-e588-4ea7-b271-73f262b122d7 REDIS_HOST=127.0.0.1 NODE_ENV=dev REDIS_PORT=6379 node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "applicationinsights": "^1.0.3",
@@ -21,6 +23,8 @@
     "path": "^0.12.7",
     "redis": "^2.8.0",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
-  }
+    "request-promise": "^4.2.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
