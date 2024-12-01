@@ -5,7 +5,9 @@
   "scripts": {
     "local": "vue-cli-service serve",
     "dev": "vue-cli-service serve",
-    "container": "vue-cli-service serve"
+    "container": "vue-cli-service serve",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^2.6.1",
@@ -13,7 +15,7 @@
     "bootstrap": "^4.3.1",
     "chartist": "^0.11.0",
     "es6-promise": "^4.2.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mapbox-gl": "^0.53.0",
     "moment": "^2.22.2",
     "popper.js": "^1.14.3",
@@ -23,7 +25,8 @@
     "vue-clickaway": "^2.1.0",
     "vue-notifyjs": "^0.4.3",
     "vue-router": "^3.0.1",
-    "vue-template-compiler": "^2.0.0"
+    "vue-template-compiler": "^2.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
@@ -44,5 +47,6 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "snyk": true
 }
