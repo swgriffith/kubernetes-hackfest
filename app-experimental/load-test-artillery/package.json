@@ -6,6 +6,6 @@
       "refresh": "artillery run data-refresh.yaml"
     },
     "dependencies": {
-      "artillery": "~1.6.0"
+      "artillery": "~2.0.1"
     }
   }
