@@ -15,7 +15,7 @@
     "express": "~4.16.0",
     "mongoose": "^5.7.5",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2",
+    "request-promise": "^4.2.6",
     "dayjs": "^1.7.5"
   }
 }
